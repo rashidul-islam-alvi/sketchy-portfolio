@@ -130,7 +130,7 @@ export const projects = [
     id: 1,
     name: "Modern Landing Page",
     imageUrl: "/mordern.jpg",
-    technologyUsed: ["React Js", "Framer Motion", "Tailwind", "SwiperJs"],
+    technologyUsed: ["React Js", "Tailwind", "Framer Motion", "SwiperJs"],
     github: "https://github.com/rashidul-islam-alvi/modern-landing-page",
     liveUrl: "https://modern-landing-page-gules.vercel.app/",
   },
@@ -141,8 +141,9 @@ export const projects = [
     technologyUsed: [
       "React Js",
       "Typescript",
-      "Framer Motion",
       "Tailwind",
+      "Framer Motion",
+
       "Local Storage",
     ],
     github:

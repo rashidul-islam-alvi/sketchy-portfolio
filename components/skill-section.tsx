@@ -18,16 +18,16 @@ export default function Skills() {
         <Header color="#ffc9c9" title="skills" />
       </div>
 
-      <div className="relative grid grid-cols-1 mt-10 md:grid-cols-2 gap-x-10 gap-y-20">
-        <div className="absolute right-0 top-[360px] md:top-1/3">
+      <div className="relative grid grid-cols-1 mt-10 lg:grid-cols-2 gap-x-10 gap-y-20">
+        <div className="absolute right-0 top-[360px] lg:top-1/3">
           <RoughNotation type="underline" show>
-            <h2 className="text-4xl md:text-8xl">Web Design</h2>
+            <h2 className="text-4xl lg:text-8xl">Web Design</h2>
           </RoughNotation>
         </div>
 
-        <div className="absolute right-0 md:right-[700px]  top-[720px] md:bottom-1/4">
+        <div className="absolute right-0 lg:right-[700px]  top-[700px] lg:bottom-1/4">
           <RoughNotation type="underline" show>
-            <h2 className="text-xl font-bold md:font-normal md:text-5xl">
+            <h2 className="text-xl font-bold lg:font-normal lg:text-5xl">
               Mobile Application Developer
             </h2>
           </RoughNotation>

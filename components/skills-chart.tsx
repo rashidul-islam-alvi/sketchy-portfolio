@@ -3,7 +3,7 @@ import { RoughNotation } from "react-rough-notation";
 
 export default function SkillsChart() {
   return (
-    <div className="bottom-0 flex gap-1 -right-5 md:gap-10 md:items-end md:absolute ">
+    <div className="bottom-0 flex gap-1 -right-5 lg:gap-10 lg:items-end lg:absolute ">
       <div className="flex flex-col gap-10 text-lg md:text-xl">
         <p>
           I am deeply <br /> interested in <br />

@@ -14,7 +14,7 @@ export default function SkillsCard({ tools }: SkillsToolsProps) {
   return (
     <div className="grid grid-cols-2 gap-x-10 gap-y-14">
       {tools.map(({ id, name }) => (
-        <h2 className="text-2xl md:text-5xl" key={id}>
+        <h2 className="text-2xl lg:text-5xl" key={id}>
           <RoughNotation type="circle" color="#000" show>
             {`<${name}>`}
           </RoughNotation>

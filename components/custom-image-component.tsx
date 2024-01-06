@@ -17,7 +17,13 @@ export default function ImageComponent({
     <div
       className={cn("w-10 h-10 relative rounded-md cursor-pointer", className)}
     >
-      <Image src={path} alt={alt} layout="fill" fill className="absolute" />
+      <Image
+        src={path}
+        alt={alt}
+        layout="fill"
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+        className="absolute"
+      />
     </div>
   );
 }

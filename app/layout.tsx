@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Indie_Flower } from "next/font/google";
 import "./globals.css";
 import NavBar from "@/components/nav-bar";
+import Footer from "@/components/footer";
 
 const indie_flower = Indie_Flower({ subsets: ["latin"], weight: "400" });
 
@@ -23,6 +24,7 @@ export default function RootLayout({
             <NavBar />
             {children}
           </div>
+          <Footer />
         </div>
       </body>
     </html>

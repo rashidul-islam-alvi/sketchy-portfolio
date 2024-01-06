@@ -87,6 +87,17 @@
   );
 }
 
+.bg-graph-footer {
+  background-color: transparent;
+  background: repeating-linear-gradient(
+    45deg,
+    #3b3b3b,
+    #3b3b3b 2px,
+    #e5e5f7 1px,
+    #e5e5f7 15px
+  );
+}
+
 .horizontal-graph-bg {
   background-color: #e5e5f7;
   opacity: 0.8;
