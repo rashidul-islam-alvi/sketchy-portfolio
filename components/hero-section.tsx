@@ -48,13 +48,14 @@ export default function Hero() {
             >
               Follow
             </Button>
-
-            <Button
-              variant={"link"}
-              className="border-2 border-black xs:py-8 xs:text-2xl lg:text-4xl bg-graph"
-            >
-              Download CV
-            </Button>
+            <a href="/cv.pg" download>
+              <Button
+                variant={"link"}
+                className="border-2 border-black xs:py-8 xs:text-2xl lg:text-4xl bg-graph"
+              >
+                Download CV
+              </Button>
+            </a>
           </div>
         </div>
       </div>
