@@ -3,12 +3,12 @@ import { RoughNotation } from "react-rough-notation";
 
 export default function SkillsChart() {
   return (
-    <div className="bottom-0 flex gap-1 -right-5 lg:gap-10 lg:items-end lg:absolute ">
-      <div className="flex flex-col gap-10 text-lg md:text-xl">
+    <div className="bottom-0 right-0 flex gap-2 lg:gap-5 lg:items-end lg:absolute ">
+      <div className="flex flex-col gap-10 text-sm xs:text-lg md:text-xl">
         <p>
-          I am deeply <br /> interested in <br />
+          I am deeply <br /> interested in <br /> <br />
           <RoughNotation type="box" show>
-            <span className="text-2xl font-semibold">
+            <span className="text-sm font-semibold xs:text-2xl">
               Artificial Inteligence
             </span>
           </RoughNotation>
@@ -16,34 +16,35 @@ export default function SkillsChart() {
 
         <p>I like video games </p>
       </div>
+
       <div className="flex flex-col items-center justify-center gap-5 ">
-        <p className="text-xl font-semibold">front-end</p>
+        <p className="text-sm font-semibold xs:text-xl">front-end</p>
         <RoughNotation type="box" show>
-          <div className="flex items-center justify-center w-8 h-24 md:w-10 ">
+          <div className="flex items-center justify-center w-5 xs:w-8 h-14 xs:h-24 md:w-10 ">
             <h2 className="font-semibold text-black"> 70%</h2>
           </div>
         </RoughNotation>
       </div>
       <div className="flex flex-col items-center justify-center gap-5 ">
-        <p className="text-xl font-semibold">mobile</p>
+        <p className="text-sm font-semibold xs:text-xl">mobile</p>
         <RoughNotation type="box" show>
-          <div className="flex items-center justify-center w-8 h-24 md:w-10 ">
+          <div className="flex items-center justify-center w-5 xs:w-8 h-14 xs:h-24 md:w-10 ">
             <h2 className="font-semibold text-black"> 70%</h2>
           </div>
         </RoughNotation>
       </div>
       <div className="flex flex-col items-center justify-center gap-5 ">
-        <p className="text-xl font-semibold">animations</p>
+        <p className="text-sm font-semibold xs:text-xl">animations</p>
         <RoughNotation type="box" show>
-          <div className="flex items-center justify-center w-8 h-20 md:w-10 ">
+          <div className="flex items-center justify-center w-5 h-10 xs:h-20 xs:w-8 md:w-10 ">
             <h2 className="font-semibold text-black"> 50%</h2>
           </div>
         </RoughNotation>
       </div>
       <div className="flex flex-col items-center justify-center gap-5 ">
-        <p className="text-xl font-semibold">back-end</p>
+        <p className="text-sm font-semibold xs:text-xl">back-end</p>
         <RoughNotation type="box" show>
-          <div className="flex items-center justify-center w-8 h-16 md:w-10 ">
+          <div className="flex items-center justify-center w-5 h-12 xs:w-8 xs:h-16 md:w-10 ">
             <h2 className="font-semibold text-black"> 40%</h2>
           </div>
         </RoughNotation>

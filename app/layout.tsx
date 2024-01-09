@@ -20,11 +20,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${indie_flower.className} `}>
         <div className="w-full overflow-x-hidden md:overflow-x-visible horizontal-graph-bg ">
-          <div className="mx-auto   md:w-[70%] ">
+          <div className="mx-auto  md:w-[80%] 2xl:w-[70%]">
             <NavBar />
             {children}
           </div>
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </body>
     </html>

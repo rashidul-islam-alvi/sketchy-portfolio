@@ -22,11 +22,11 @@ export default function Projects() {
 
   return (
     <div id="projects">
-      <div className="mb-20">
+      <div className="mb-10 xs:mb-20">
         <Header title="Projects" color="#ee4141" />
       </div>
       <div>
-        <ul className="grid gap-10 lg:grid-cols-2 ">
+        <ul className="grid gap-10 md:grid-cols-2 ">
           {projects.map((item, index) => (
             <RoughNotation type="box" show key={item.id}>
               <div
@@ -44,8 +44,7 @@ export default function Projects() {
           <Link href="https://github.com/rashidul-islam-alvi" target="_blank">
             <Button
               variant={"link"}
-              size={"lg"}
-              className="text-3xl border-2 border-gray-500 "
+              className="text-xl border-2 border-gray-500 xs:text-3xl "
             >
               See all projects
             </Button>

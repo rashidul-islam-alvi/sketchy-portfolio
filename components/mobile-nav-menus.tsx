@@ -17,7 +17,7 @@ export default function MobileNavMenus({
   return (
     <ul
       className={`${
-        showMobileNavMenus ? "translate-x-0" : "translate-x-[500px]"
+        showMobileNavMenus ? "translate-x-0" : "translate-x-[600px]"
       } absolute top-0 flex flex-col items-center justify-center w-[70%] transition-all duration-500  horizontal-graph-bg-mobile right-0 h-screen gap-10 text-3xl border-2 md:hidden`}
     >
       {navmenus.map((item) => (
