@@ -151,7 +151,7 @@ export const projects = [
     liveUrl: "https://image-gallery-react-typescript-framer-motion.vercel.app/",
   },
   {
-    id: 3,
+    id: 6,
     name: "University Landing Page",
     imageUrl: "/university.jpg",
     technologyUsed: ["React Js", "Tailwind", "SwiperJs"],
@@ -159,7 +159,7 @@ export const projects = [
     liveUrl: "https://university-landing-page-47r1.vercel.app/",
   },
   {
-    id: 4,
+    id: 7,
     name: "Advanced Todo List",
     imageUrl: "/todo.jpg",
     technologyUsed: ["React Js", "Redux Toolkit", "Tailwind", "Local Storage"],
@@ -168,7 +168,7 @@ export const projects = [
     liveUrl: "https://todos-react-redux-local-storage.vercel.app/",
   },
   {
-    id: 5,
+    id: 8,
     name: "Summerize Article with OpenAi",
     imageUrl: "/sum.jpg",
     technologyUsed: ["React Js", "OpenAi API", "Tailwind"],
@@ -176,11 +176,35 @@ export const projects = [
     liveUrl: "https://article-summarize-open-ai.vercel.app/",
   },
   {
-    id: 6,
+    id: 9,
     name: "NFT Collection Landing Page",
     imageUrl: "/nfters.jpg",
     technologyUsed: ["Next Js", "Framer Motion", "Tailwind"],
     github: "https://github.com/rashidul-islam-alvi/nfters",
     liveUrl: "https://nfters-pearl.vercel.app/",
   },
-];
+  {
+    id: 3,
+    name: "Restaurant Landing Page",
+    imageUrl: "/restaurant.png",
+    technologyUsed: ["Next Js", "Framer Motion", "Tailwind"],
+    github: "https://github.com/rashidul-islam-alvi/restaurant-landing-page",
+    liveUrl: "https://restaurant-landing-page-liard.vercel.app/",
+  },
+  {
+    id: 4,
+    name: "Full Stack Authentication",
+    imageUrl: "/next-auth.png",
+    technologyUsed: ["Next Js", "Tailwind", "Next-Auth", "Prisma"],
+    github: "https://github.com/rashidul-islam-alvi/next-auth",
+    liveUrl: "https://next-auth-roan-nu.vercel.app/",
+  },
+  {
+    id: 5,
+    name: "Flower Shop Landing Page",
+    imageUrl: "/flower.png",
+    technologyUsed: ["Next Js", "Framer Motion", "Tailwind"],
+    github: "https://github.com/rashidul-islam-alvi/flower-shop",
+    liveUrl: "https://flower-shop-mu.vercel.app/",
+  },
+].sort((a, b) => a.id - b.id);
