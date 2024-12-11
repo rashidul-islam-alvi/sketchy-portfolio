@@ -7,21 +7,26 @@ import React, { useState } from "react";
 import { RoughNotation } from "react-rough-notation";
 import MobileNavMenus from "./mobile-nav-menus";
 
+interface ListItem {
+  id: number;
+  title: string;
+  href: string;
+}
+
 export default function NavBar() {
-  const lists = [
+  const lists: ListItem[] = [
     { id: 1, title: "Skills", href: "#skills" },
     { id: 2, title: "Projects", href: "#projects" },
-    { id: 3, title: "Blogs", href: "#blogs" },
-    { id: 4, title: "Contact", href: "#contact" },
+    { id: 3, title: "Contact", href: "#contact" },
   ];
 
-  const [showItem, setShowItem] = useState(1);
-  const [showMobileNavMenus, setShowMobileNavMenus] = useState(false);
-  const [hidden, setHidden] = useState(false);
+  const [showItem, setShowItem] = useState<number>(1);
+  const [showMobileNavMenus, setShowMobileNavMenus] = useState<boolean>(false);
+  const [hidden, setHidden] = useState<boolean>(false);
 
   const { scrollY } = useScroll();
 
-  useMotionValueEvent(scrollY, "change", (latest) => {
+  useMotionValueEvent(scrollY, "change", (latest: number) => {
     const previous = scrollY.getPrevious();
 
     if (latest > previous && latest > 150) {
@@ -40,11 +45,11 @@ export default function NavBar() {
       variants={{ visible: { y: 0 }, hidden: { y: "-100%" } }}
       animate={hidden ? "hidden" : "visible"}
       transition={{ duration: 0.35, ease: "easeInOut" }}
-      className="top-0 z-20 flex items-center justify-between px-5 py-3 lg:sticky xs:px-10 md:py-5 "
+      className="top-0 z-20 flex items-center justify-between px-5 py-3 lg:sticky xs:px-10 md:py-5"
     >
       <div>
         <h2 className="text-4xl md:text-5xl">
-          <Link href="#">Logo</Link>
+          <Link href="#">me.Dev</Link>
         </h2>
       </div>
 

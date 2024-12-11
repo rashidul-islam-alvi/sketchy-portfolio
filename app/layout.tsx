@@ -19,8 +19,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${indie_flower.className} `}>
-        <div className="w-full overflow-x-hidden md:overflow-x-visible horizontal-graph-bg ">
-          <div className="mx-auto  md:w-[80%] 2xl:w-[70%]">
+        <div className="overflow-x-hidden md:overflow-x-visible horizontal-graph-bg ">
+          <div className="max-w-[1332px] mx-auto ">
             <NavBar />
             {children}
           </div>

@@ -121,7 +121,6 @@ export const othersTools = [
 export const navmenus = [
   { id: 1, title: "Skills", href: "#skills" },
   { id: 2, title: "Projects", href: "#projects" },
-  { id: 3, title: "Blogs", href: "#blogs" },
   { id: 4, title: "Contact", href: "#contact" },
 ];
 
@@ -186,10 +185,11 @@ export const projects = [
   {
     id: 3,
     name: "Restaurant Landing Page",
-    imageUrl: "/restaurant.png",
+    imageUrl: "/softnio.JPG",
     technologyUsed: ["Next Js", "Framer Motion", "Tailwind"],
     github: "https://github.com/rashidul-islam-alvi/restaurant-landing-page",
-    liveUrl: "https://restaurant-landing-page-liard.vercel.app/",
+    liveUrl:
+      "https://github.com/rashidul-islam-alvi/softnio-landing-page-design",
   },
   {
     id: 4,

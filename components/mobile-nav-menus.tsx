@@ -1,6 +1,8 @@
+"use client";
+
 import { navmenus } from "@/data";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect } from "react";
 import { RoughNotation } from "react-rough-notation";
 
 interface MobileNavMenusProps {

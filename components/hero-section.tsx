@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { Button } from "./ui/button";
 import { RoughNotation } from "react-rough-notation";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -42,20 +43,21 @@ export default function Hero() {
             </li>
           </ul>
           <div className="flex gap-5 xs:gap-10">
-            <Button
-              variant={"link"}
-              className="border-2 border-black cursor-pointer xs:py-8 xs:text-2xl lg:text-4xl bg-graph"
+            <Link
+              target="_blank"
+              href="https://github.com/rashidul-islam-alvi"
+              className="flex items-center justify-center h-10 px-4 py-2 border-2 border-black rounded-md cursor-pointer xs:py-8 xs:text-2xl lg:text-4xl bg-graph "
             >
               Follow
-            </Button>
-            <a href="/cv.pg" download>
-              <Button
-                variant={"link"}
-                className="border-2 border-black xs:py-8 xs:text-2xl lg:text-4xl bg-graph"
-              >
-                Download CV
-              </Button>
-            </a>
+            </Link>
+
+            <Link
+              target="_blank"
+              href={"/cv.pdf"}
+              className="flex items-center justify-center h-10 px-4 py-2 border-2 border-black rounded-md cursor-pointer xs:py-8 xs:text-2xl lg:text-4xl bg-graph "
+            >
+              Download CV
+            </Link>
           </div>
         </div>
       </div>
